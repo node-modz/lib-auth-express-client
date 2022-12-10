@@ -1,0 +1,37 @@
+{
+  "name": "@node-modz/lib-auth-express-client",
+  "version": "1.0.0",
+  "description": "Auth server client to verify token",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-modz/lib-template.git"
+  },
+  "keywords": [
+    "template",
+    "lib-auth-client",
+    "node-modz",
+    "Wavelabs"
+  ],
+  "author": "Wavelabs Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/node-modz/lib-template/issues"
+  },
+  "homepage": "https://github.com/node-modz/lib-template#readme",
+  "devDependencies": {
+    "@types/node": "^14.18.32",
+    "@types/express": "4.17.14",
+    "@types/express-session": "1.17.3",
+    "@types/axios": "0.14.0",
+    "@types/jwt-decode": "3.1.0"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "express-session": "1.17.3",
+    "axios": "1.2.1",
+    "@node-modz/lib-logger": "1.0.8",
+    "jwt-decode": "3.1.2"
+
+  }
+}
